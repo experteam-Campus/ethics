@@ -615,12 +615,12 @@ body.view-in-course .static_tab_wrapper {
     right: 0;
     z-index: 100 !important;
     width: 100%;
-    background-color: gainsboro;
+    background-color: #f0f0f0;
 }
 
 .progress-barscrollIndicator {
     height: 10px;
-    background: #fcc02e;
+    background: #00B4D8;
     width: 0%;
 }
 
