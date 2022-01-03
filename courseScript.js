@@ -2,67 +2,70 @@ $(document).ready(function() {
 
 
 
-$('.choicegroup.capa_inputtype .field-input[type="radio"]').change(function() {
+    $('.choicegroup.capa_inputtype .field-input[type="radio"]').change(function() {
 
-    if ($(this).prop("checked")) {
-        console.log("line 17 - checked")
+        if ($(this).prop("checked")) {
+            console.log("line 17 - checked")
 
-        $("label").css({
-            "background-color": "white",
-            "color": "black",
-            "border": "2px solid #142654"
-        })
-
-
-        $(this).parent().css({
-            "background-color": "#fcc02e",
-            "border": "2px solid #142654",
-            "color": "#142654",
-        })
-
-        $("label").hover(function() {
-            $(this).css({ "border": "2px solid #fcc02e" });
-        }, function() {
-            $(this).css({ "border": "2px solid #142654" });
-        });
+            $("label").css({
+                "background-color": "#CAF0F8",
+                "color": "#023E8A",
+                "border": "2px solid #CAF0F8"
+            })
 
 
-    }
-});
+            $(this).parent().css({
+                "background-color": "#023E8A",
+                "border": "2px solid #023E8A",
+                "color": "white",
+            })
+
+            $("label").hover(function() {
+                $(this).css({ "border": "2px solid #023E8A" });
+
+            }, function() {
+                $(this).css({ "border": "2px solid #CAF0F8" });
+            });
+
+
+        }
+    });
 
 
 
-$('.field-input[type="checkbox"]').change(function() {
-    if ($(this).prop("checked")) {
 
-        $(this).parent().css({
-            "background-color": "#fcc02e",
-            "border": "2px solid #142654",
-            "color": "black",
+    $('.field-input[type="checkbox"]').change(function() {
+        if ($(this).prop("checked")) {
 
-        })
+            $(this).parent().css({
+                "background-color": "#023E8A",
+                "border": "2px solid #023E8A",
+                "color": "white",
 
-        $("label").hover(function() {
-            $(this).css({ "border": "2px solid #fcc02e" });
-        }, function() {
-            $(this).css({ "border": "2px solid #142654" });
-        });
+            })
+
+            $("label").hover(function() {
+                $(this).css({ "border": "2px solid #023E8A" });
+            }, function() {
+                $(this).css({ "border": "2px solid #023E8A" });
+            });
 
 
-    } else {
-        $(this).parent().css({
-            "background-color": "white",
-            "color": "black",
-            "border": "2px solid #142654"
-        })
+        } else {
+            $(this).parent().css({
+                "background-color": "CAF0F8",
+                "color": "#023E8A",
+                "border": "2px solid #CAF0F8"
+            })
 
-        $("label").hover(function() {
-            $(this).css({ "border": "2px solid #fcc02e" });
-        }, function() {
-            $(this).css({ "border": "2px solid #142654" });
-        });
-    }
-});
+            $("label").hover(function() {
+                $(this).css({ "border": "2px solid #023E8A" });
+            }, function() {
+                $(this).css({ "border": "2px solid #CAF0F8" });
+            });
+        }
+
+    });
 });
 
 
@@ -96,10 +99,10 @@ captionText.innerHTML = dots[slideIndex - 1].alt;
 window.onscroll = function() { scrollIndicator() };
 
 function scrollIndicator() {
-var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-var scrolled = (winScroll / height) * 100;
-document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
 }
 
 console.log("helllo");
@@ -122,4 +125,3 @@ console.log("helllo");
        })
    }
 */
-    
