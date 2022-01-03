@@ -59,7 +59,7 @@ $(document).ready(function() {
 
         } else {
             $(this).parent().css({
-                "background-color": "CAF0F8",
+                "background-color": "#CAF0F8",
                 "color": "#023E8A",
                 "border": "2px solid #CAF0F8"
             })
