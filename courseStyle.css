@@ -134,8 +134,8 @@ a,
     font-family: 'Assistant', sans-serif;
     padding: 6px 20px 6px 20px;
     font-weight: 700;
-    color: #142654;
-    background: linear-gradient(90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+    color: white;
+    background: #023E8A;
     height: 80px;
     padding-top: 15px;
     border-radius: 20px;
@@ -196,26 +196,23 @@ a,
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
     font-weight: 700 !important;
-    color: #142657;
+    color: #023E8A;
     margin-top: -47px;
     border-radius: 10px;
     display: inline;
     z-index: 1;
-    background: linear-gradient( 90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+    background-color: white;
 }
 
 .maintextHeadline:before {
-    border: 2px solid #00B4D8;
-    border-radius: 7px;
+    border: 3px solid #90E0EF;
     position: absolute;
     content: "";
-    width: 101%;
-    height: 100%;
-    top: -3px;
-    left: 1px;
-    transform: rotate(2.5deg);
-    z-index: 0;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+    width: 50%;
+    height: 130%;
+    top: -10px;
+    left: 135px;
+    z-index: -1;
 }
 
 
@@ -225,7 +222,7 @@ a,
 .textHeadlineNoLine,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .discussion-module-title {
-    font-size: 1.5em !important;
+    /*     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -237,7 +234,19 @@ a,
     border-radius: 10px;
     display: inline-block;
     z-index: 1;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: #023E8A;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background-color: white;
 }
 
 
@@ -248,7 +257,7 @@ a,
 .textHeadline:before,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
 .discussion-module-title:before {
-    border: 2px solid #00B4D8;
+    /*     border: 2px solid #00B4D8;
     border-radius: 7px;
     position: absolute;
     content: "";
@@ -258,7 +267,15 @@ a,
     left: 1px;
     transform: rotate(2.5deg);
     z-index: 0;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px; */
+    border: 3px solid #90E0EF;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 130%;
+    top: -10px;
+    left: 135px;
+    z-index: -1;
 }
 
 
