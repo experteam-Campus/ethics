@@ -17,7 +17,7 @@ $(document).ready(function() {
             $(this).parent().css({
                 "background-color": "#023E8A",
                 "border": "2px solid #023E8A",
-                "color": "white",
+                "color": "#FFFFFF",
             })
 
             $("label").hover(function() {
@@ -27,7 +27,13 @@ $(document).ready(function() {
                 $(this).css({ "border": "2px solid #CAF0F8" });
             });
 
+            $('.field-input[type="radio"]:checked').parent().css({
 
+                "background-color": "#023E8A",
+                "border": "2px solid #023E8A",
+                "color": "#FFFFFF",
+
+            })
         }
     });
 
@@ -40,7 +46,7 @@ $(document).ready(function() {
             $(this).parent().css({
                 "background-color": "#023E8A",
                 "border": "2px solid #023E8A",
-                "color": "white",
+                "color": "#FFFFFF",
 
             })
 
