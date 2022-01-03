@@ -144,61 +144,76 @@ a,
 /* MAIN TEXT HEADLINE */
 
 .maintextHeadline {
-    font-size: 1.8em !important;
+    font-size: 1.9em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
     font-weight: 700 !important;
-    color: #023E8A;
+    color: white;
     margin-top: -47px;
-    border-radius: 10px;
     display: inline;
     z-index: 1;
-    background-color: white;
+    background-color: #023E8A;
+    height: 10px;
+    box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
 }
 
 .maintextHeadline:before {
-    border: 3px solid #90E0EF;
+    border: 3.3px solid #90E0EF;
     position: absolute;
     content: "";
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 135px;
+    left: 137px;
     z-index: -1;
 }
 
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
 
-.textHeadlineNoLine,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .discussion-module-title {
     font-size: 1.8em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 14px;
+    padding: 1px 14px 6px 14px;
     font-weight: 700 !important;
-    color: #023E8A;
+    color: white;
     margin-top: -47px;
-    border-radius: 10px;
     display: inline;
     z-index: 1;
-    background-color: white;
+    background-color: #023E8A;
+    box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
 }
 
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
 .discussion-module-title:before {
-    border: 3px solid #90E0EF;
+    border: 3.3px solid #90E0EF;
     position: absolute;
     content: "";
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 48px;
+    left: 39px;
     z-index: -1;
+}
+
+.textHeadlineNoLine {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background-color: #023E8A;
 }
 
 .textHeadline {
@@ -494,7 +509,20 @@ body.view-in-course .static_tab_wrapper {
     padding: 18px 10px 1px 10px;
     border-radius: 5px;
     font-family: 'Assistant', sans-serif;
-    color: #142654;
+    color: #023E8A;
+    background-color: white !important;
+}
+
+
+/* RIGHT MENU */
+
+span.group-heading.active {
+    background-color: #EAF9FC;
+    color: #023E8A !important;
+}
+
+p.accordion-display-name {
+    color: #00B4D8;
 }
 
 .btn-link,
@@ -738,14 +766,6 @@ body.view-in-course .static_tab_wrapper {
     height: 35px !important;
     display: inline-block;
     margin-top: 4px;
-}
-
-
-/* RIGHT MENU */
-
-span.group-heading.active {
-    background-color: #EAF9FC;
-    color: #023E8A !important;
 }
 
 
