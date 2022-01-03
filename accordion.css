@@ -57,11 +57,11 @@ table tr:hover {
 }
 
 .accordion1 {
-    background-color: white;
-    color: #142654;
+    background-color: #90E0EF;
+    color: #023E8A;
     font-weight: bold;
     cursor: pointer;
-    padding: 5px 18px 5px 5px;
+    padding: 0px 18px 0px 0px;
     width: 100%;
     border: none;
     text-align: right;
@@ -69,18 +69,18 @@ table tr:hover {
     font-size: 14pt !important;
     transition: 0.4s;
     margin-top: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-    border: #142654 solid 2px;
-    border-radius: 15px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4); */
+    /* border: #142654 solid 2px; */
+    /* border-radius: 15px; */
     line-height: 2.8em !important;
 }
 
 .accordion2 {
-    background-color: white;
-    color: #142654;
+    background-color: #90E0EF;
+    color: #023E8A;
     font-weight: bold;
     cursor: pointer;
-    padding: 5px 18px 5px 5px;
+    padding: 0px 18px 0px 0px;
     width: 100%;
     border: none;
     text-align: right;
@@ -88,24 +88,24 @@ table tr:hover {
     font-size: 14pt !important;
     transition: 0.4s;
     margin-top: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-    border: #142654 solid 2px;
-    border-radius: 15px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4); */
+    /* border: #142654 solid 2px; */
+    /* border-radius: 15px; */
     line-height: 2.8em !important;
 }
 
 .accordion1.active,
 .accordion1:hover {
-    background-color: #fcc02eff;
-    color: #142654;
-    border: #142654 solid 2px;
+    background-color: #023E8A;
+    color: white;
+    border: none;
 }
 
 .accordion2.active,
 .accordion2:hover {
-    background-color: #fcc02eff;
-    color: #142654;
-    border: #142654 solid 2px;
+    background-color: #023E8A;
+    color: white;
+    border: none;
 }
 
 .accordion2.active .arrowImg {
@@ -182,16 +182,10 @@ div.panel2.show {
     padding-top: 10px;
     padding-bottom: 15px;
     width: 100%;
-    background-color: white;
+    background-color: #EAF9FC;
     line-height: 150%;
-    border: 2px solid #142654;
-    border-top: 2px solid #142654;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     position: relative;
-    top: -11px;
     z-index: 1;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.30);
 }
 
 div.panel3.show {
@@ -233,7 +227,7 @@ div.panel3.show {
 }
 
 .accplus {
-    color: #142654;
+    color: #00B4D8;
     float: left;
     font-size: 17pt !important;
     margin-left: 5%;
