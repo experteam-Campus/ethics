@@ -166,12 +166,16 @@ a,
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 137px;
+    right: 0px;
     z-index: -1;
 }
 
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-2 {
+    color: white;
+}
 
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .discussion-module-title {
@@ -197,7 +201,7 @@ a,
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 39px;
+    right: 0px;
     z-index: -1;
 }
 
@@ -210,7 +214,6 @@ a,
     font-weight: 700 !important;
     color: white;
     margin-top: -47px;
-    border-radius: 10px;
     display: inline;
     z-index: 1;
     background-color: #023E8A;
@@ -225,7 +228,6 @@ a,
     font-weight: 700 !important;
     color: #023E8A;
     margin-top: -47px;
-    border-radius: 10px;
     display: inline;
     z-index: 1;
     background-color: white;
@@ -238,7 +240,7 @@ a,
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 145px;
+    right: -5px;
     z-index: -1;
 }
 
