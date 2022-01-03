@@ -197,7 +197,7 @@ a,
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 135px;
+    left: 48px;
     z-index: -1;
 }
 
@@ -223,7 +223,7 @@ a,
     width: 50%;
     height: 130%;
     top: -10px;
-    left: 135px;
+    left: 145px;
     z-index: -1;
 }
 
@@ -744,9 +744,8 @@ body.view-in-course .static_tab_wrapper {
 /* RIGHT MENU */
 
 span.group-heading.active {
-    background-color: #142654;
-    color: white !important;
-    border-radius: 10px;
+    background-color: #EAF9FC;
+    color: #023E8A !important;
 }
 
 
@@ -780,7 +779,7 @@ span.group-heading.active {
 .falseAns {
     border: 2px solid #FF3F3E;
     border-radius: 12px;
-    background-color: #ffcc3e41;
+    background-color: #3eb8ff41;
     width: 77%;
     padding: 20px;
     margin-right: 30px;
