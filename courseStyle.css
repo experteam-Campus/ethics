@@ -388,7 +388,7 @@ body.view-in-course .static_tab_wrapper {
     font-size: 1em;
     line-height: normal;
     cursor: pointer;
-    width: 80%;
+    width: 100%;
 }
 
 .vert-mod .vert.vert-1:nth-child(odd) .xblock.xblock-student_view.xblock-student_view-problem.xmodule_display.xmodule_CapaModule.xblock-initialized .problems-wrapper:before {
@@ -801,8 +801,7 @@ p.accordion-display-name {
 
 .falseAns {
     border: 2px solid #FF3F3E;
-    border-radius: 12px;
-    background-color: #3eb8ff41;
+    background-color: #EAF9FC;
     width: 77%;
     padding: 20px;
     margin-right: 30px;
