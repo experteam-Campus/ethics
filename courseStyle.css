@@ -379,6 +379,10 @@ body.view-in-course .static_tab_wrapper {
     padding-left: 30px;
 }
 
+p.accordion-display-name:hover {
+    color: #023E8A;
+}
+
 
 /* problem lables design */
 
