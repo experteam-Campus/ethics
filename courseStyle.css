@@ -863,3 +863,38 @@ p.accordion-display-name {
 .boxinner hr {
     margin: 17px 65px;
 }
+
+
+/* ETHIC RULES */
+
+.ethicRules {
+    border: 3.5px solid #023E8A;
+    padding: 20px;
+}
+
+.textHeadlineNoLine2 {
+    background-color: #CAF0F8;
+    color: #023E8A;
+    margin: -8px 31px !important;
+    display: inline-block;
+}
+
+.ethicRulesImgDiv {
+    background-color: #023E8A;
+    border: 10px solid white;
+    width: 13%;
+    margin-top: -75px;
+    margin-right: -68px;
+    padding: 4px;
+}
+
+.ethicRulesImg {
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.ethicRulesText {
+    color: #023E8A !important;
+    margin: 21px 35px 4px 20px !important;
+    font-size: 1.5em !important;
+}
