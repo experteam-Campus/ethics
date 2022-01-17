@@ -130,14 +130,28 @@ a,
 
 .h2.hd-2,
 .xblock .xblock h2 {
-    font-size: 2em !important;
+    font-size: 2.3em !important;
     font-family: 'Assistant', sans-serif;
     padding: 6px 20px 6px 20px;
-    font-weight: 700;
-    color: white;
-    background: #023E8A;
+    font-weight: 800;
+    color: #023E8A;
     height: 80px;
     padding-top: 15px;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+h2.hd.hd-2.unit-title:before {
+    /* border: 3.3px solid #90E0EF; */
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 100%;
+    top: 7px;
+    right: 0px;
+    z-index: -1;
+    background-color: #EAF9FC;
 }
 
 
@@ -689,8 +703,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum1_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -702,8 +716,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum2_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -715,8 +729,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum3_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -728,8 +742,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum4_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -741,8 +755,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum5_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -754,8 +768,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum6_1.svg');
-    width: 22px !important;
-    height: 50px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -767,8 +781,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum7_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -780,8 +794,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum8_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -793,8 +807,8 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_video .icon:before {
     content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum9_1.svg');
-    width: 22px !important;
-    height: 35px !important;
+    width: 30px !important;
+    height: 25px !important;
     display: inline-block;
     margin-top: 4px;
 }
@@ -895,7 +909,7 @@ p.accordion-display-name {
 /* ETHIC RULES */
 
 .ethicRules {
-    border: 3.5px solid #023E8A;
+    border: 3.5px solid #00B4D8;
     padding: 20px;
 }
 
@@ -907,10 +921,10 @@ p.accordion-display-name {
 }
 
 .ethicRulesImgDiv {
-    background-color: #023E8A;
-    border: 10px solid white;
+    background-color: #00B4D8;
+    border: 17px solid white;
     width: 13%;
-    margin-top: -75px;
+    margin-top: -82px;
     margin-right: -68px;
     padding: 4px;
 }
