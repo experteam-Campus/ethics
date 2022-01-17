@@ -133,7 +133,7 @@ a,
     font-size: 2.3em !important;
     font-family: 'Assistant', sans-serif;
     padding: 6px 20px 6px 20px;
-    font-weight: 800;
+    font-weight: 700;
     color: #023E8A;
     height: 80px;
     padding-top: 15px;
@@ -152,6 +152,24 @@ h2.hd.hd-2.unit-title:before {
     right: 0px;
     z-index: -1;
     background-color: #EAF9FC;
+}
+
+
+/* BOOKMARK */
+
+.course-content .bookmark-button-wrapper {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+span.bookmark-text {
+    color: #00B4D8;
+}
+
+.course-content .bookmark-button:before {
+    content: "";
+    font-family: FontAwesome;
+    color: #00B4D8;
 }
 
 
@@ -940,10 +958,25 @@ p.accordion-display-name {
     font-size: 1.5em !important;
 }
 
+.exampleText {
+    background-color: #EAF9FC;
+    color: #023E8A !important;
+    margin: -15px 35px 4px 20px !important;
+    padding: 12px 12px !important;
+}
+
+h5.exampleTitle {
+    font-weight: 700 !important;
+    color: #023E8A !important;
+    font-size: 1.8em !important;
+    margin: 9px 44px -8px 28px !important;
+    display: inline-block !important;
+}
+
 
 /* DIV FOR MAKING 80PX MARGIN */
 
 .bigmarginDiv {
     width: 100%;
-    height: 80px;
+    height: 75px;
 }
