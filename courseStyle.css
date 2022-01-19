@@ -1015,3 +1015,35 @@ h5.exampleTitle {
     top: 29px;
     width: 10px;
 }
+
+
+/* AUDIO */
+
+.audioDIV {
+    margin: 55px 0px 0px 0px;
+}
+
+audio.audioPodcast {
+    color: white;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+}
+
+.textDivWithLine {
+    border: 2px dashed #00B4D8;
+    padding: 10px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin-top: 35px !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.center-link {
+    color: #3c3c3c;
+    text-align: center !important;
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
