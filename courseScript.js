@@ -1,77 +1,95 @@
 $(document).ready(function() {
 
 
+    /* 
+        $('.choicegroup.capa_inputtype .field-input[type="radio"]').change(function() {
 
-    $('.choicegroup.capa_inputtype .field-input[type="radio"]').change(function() {
+            if ($(this).prop("checked")) {
+                console.log("line 17 - checked")
 
-        if ($(this).prop("checked")) {
-            console.log("line 17 - checked")
-
-            $("label").css({
-                "background-color": "#CAF0F8",
-                "color": "#023E8A",
-                "border": "2px solid #CAF0F8"
-            })
-
-
-            $(this).parent().css({
-                "background-color": "#023E8A",
-                "border": "2px solid #023E8A",
-                "color": "#FFFFFF",
-            })
-
-            $("label").hover(function() {
-                $(this).css({ "border": "2px solid #023E8A" });
-
-            }, function() {
-                $(this).css({ "border": "2px solid #CAF0F8" });
-            });
-
-            $('.field-input[type="radio"]:checked').parent().css({
-
-                "background-color": "#023E8A",
-                "border": "2px solid #023E8A",
-                "color": "#FFFFFF",
-
-            })
-        }
-    });
+                $("label").css({
+                    "background-color": "#CAF0F8",
+                    "color": "#023E8A",
+                    "border": "2px solid #CAF0F8"
+                })
 
 
+                $(this).parent().css({
+                    "background-color": "#023E8A",
+                    "border": "2px solid #023E8A",
+                    "color": "#FFFFFF",
+                })
+
+                $("label").hover(function() {
+                    $(this).css({ "border": "2px solid #023E8A" });
+
+                }, function() {
+                    $(this).css({ "border": "2px solid #CAF0F8" });
+                });
+
+                $('.field-input[type="radio"]:checked').parent().css({
+
+                    "background-color": "#023E8A",
+                    "border": "2px solid #023E8A",
+                    "color": "#FFFFFF",
+
+                })
+            }
+        });
 
 
-    $('.field-input[type="checkbox"]').change(function() {
-        if ($(this).prop("checked")) {
-
-            $(this).parent().css({
-                "background-color": "#023E8A",
-                "border": "2px solid #023E8A",
-                "color": "#FFFFFF",
-
-            })
-
-            $("label").hover(function() {
-                $(this).css({ "border": "2px solid #023E8A" });
-            }, function() {
-                $(this).css({ "border": "2px solid #023E8A" });
-            });
 
 
-        } else {
-            $(this).parent().css({
-                "background-color": "#CAF0F8",
-                "color": "#023E8A",
-                "border": "2px solid #CAF0F8"
-            })
+        $('.field-input[type="checkbox"]').change(function() {
+            if ($(this).prop("checked")) {
 
-            $("label").hover(function() {
-                $(this).css({ "border": "2px solid #023E8A" });
-            }, function() {
-                $(this).css({ "border": "2px solid #CAF0F8" });
-            });
-        }
+                $(this).parent().css({
+                    "background-color": "#023E8A",
+                    "border": "2px solid #023E8A",
+                    "color": "#FFFFFF",
 
-    });
+                })
+
+                $("label").hover(function() {
+                    $(this).css({ "border": "2px solid #023E8A" });
+                }, function() {
+                    $(this).css({ "border": "2px solid #023E8A" });
+                });
+
+
+            } else {
+                $(this).parent().css({
+                    "background-color": "#CAF0F8",
+                    "color": "#023E8A",
+                    "border": "2px solid #CAF0F8"
+                })
+
+                $("label").hover(function() {
+                    $(this).css({ "border": "2px solid #023E8A" });
+                }, function() {
+                    $(this).css({ "border": "2px solid #CAF0F8" });
+                });
+            }
+
+        }); */
+
+
+
+
+    window.onscroll = function() { scrollIndicator() };
+
+    function scrollIndicator() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
+    }
+
+    console.log("helllo");
+
+
+
+
 });
 
 
@@ -102,16 +120,7 @@ dots[slideIndex - 1].className += " active";
 captionText.innerHTML = dots[slideIndex - 1].alt;
 } */
 
-window.onscroll = function() { scrollIndicator() };
 
-function scrollIndicator() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
-}
-
-console.log("helllo");
 
 
 /*     if ($('.choicegroup.capa_inputtype .field-input[type="radio"]').prop("checked")) {

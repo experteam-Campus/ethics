@@ -1047,3 +1047,95 @@ audio.audioPodcast {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+
+/* QUESTIONS CHOOS COLOR CHANGE */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:hover+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:hover+label {
+    background-color: #EAF9FC;
+    border: 2px solid #00B4D8;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
+    background-color: #EAF9FC;
+    border: 2px solid #00B4D8;
+}
+
+
+/* QUESTION LABELS PADDING */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
+    padding-right: 50px;
+}
+
+
+/* QUESTION SEND, SAVE & VIEW ANSWER BUTTONS */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action {
+    min-height: 20px;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn {
+    margin-left: 4px;
+    max-width: 110px;
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
+    display: block;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit {
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    float: none;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
+    display: inline-block;
+    justify-content: flex-end;
+    width: unset;
+    padding-bottom: 20px;
+    float: left !important;
+}
+
+.xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default:hover {
+    background: #00B4D8;
+}
+
+
+/*  PEVIOUS NEXT BUTTON */
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
+    color: white !important;
+    background-color: #00B4D8;
+    border-bottom: none;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+    color: white!important;
+    background-color: #00B4D8;
+}
+
+
+/* BOOKMARK */
+
+.course-content .bookmark-button-wrapper {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
