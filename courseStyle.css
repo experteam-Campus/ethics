@@ -1128,8 +1128,20 @@ audio.audioPodcast {
 }
 
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
-    color: white!important;
+    color: #00B4D8 !important;
     background-color: #00B4D8;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button .icon {
+    color: white;
+}
+
+button.sequence-nav-button.button-next span {
+    color: white !important;
+}
+
+span.icon.fa.fa-chevron-prev {
+    color: #00B4D8 !important;
 }
 
 
