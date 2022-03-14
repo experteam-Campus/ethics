@@ -1128,7 +1128,7 @@ audio.audioPodcast {
 }
 
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
-    color: #00B4D8 !important;
+    color: white !important;
     background-color: #00B4D8;
 }
 
@@ -1150,4 +1150,11 @@ span.icon.fa.fa-chevron-prev {
 .course-content .bookmark-button-wrapper {
     margin-bottom: 10px;
     margin-top: 30px;
+}
+
+
+
+.fa-chevron-next::before {
+    content: "\f053";
+    color: white;
 }
