@@ -1158,3 +1158,8 @@ span.icon.fa.fa-chevron-prev {
     content: "\f053";
     color: white;
 }
+
+.fa-chevron-prev:before {
+    content: "\f054";
+    color: white;
+}
