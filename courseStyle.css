@@ -30,6 +30,12 @@ span,
     font-family: 'Assistant', sans-serif;
 }
 
+/* LINE BETWEEN COMPONENTS - KOA UPDATE */
+.course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding: 0 0;
+}
 
 /* P PREFERENCES */
 
@@ -209,7 +215,7 @@ span.bookmark-text {
     color: white;
 }
 
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+h3.hd.hd-2,
 .discussion-module-title {
     font-size: 1.8em !important;
     position: relative;
@@ -225,7 +231,7 @@ span.bookmark-text {
     box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
 }
 
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
+h3.hd.hd-2::before,
 .discussion-module-title:before {
     border: 3.3px solid #90E0EF;
     position: absolute;
@@ -947,9 +953,17 @@ p.accordion-display-name {
     padding: 4px;
 }
 
-.ethicRulesImg {
+/* .ethicRulesImg {
     width: 100%;
     margin: 0 auto !important;
+} */
+
+.ethicRulesImg {
+    width: 8%;
+    margin: 0 auto !important;
+    background-color: #00B4D8;
+    border: 15px solid white;
+    padding: 4px 3px;
 }
 
 .ethicRulesText {
