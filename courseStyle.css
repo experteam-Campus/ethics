@@ -282,6 +282,9 @@ h3.hd.hd-2::before,
     z-index: -1;
 }
 
+.xmodule_display.xmodule_VideoBlock .video{
+    margin-top: 25px; 
+}
 
 /* PROBLEMS HEADLINES */
 
