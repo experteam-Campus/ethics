@@ -555,12 +555,17 @@ p.accordion-display-name:hover {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
-    padding: 12px 20px 6px 20px;
+    padding: 12px 30px 6px 0px;
     border-radius: 5px;
     font-family: 'Assistant', sans-serif;
-    background-color: transparent !important;
+  
 }
 
+
+body .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    color: #3c3c3c;
+    background-color: #ffffff00 !important;
+}
 
 /* RIGHT MENU */
 
@@ -628,11 +633,6 @@ p.accordion-display-name {
     /*   background-color: #f3f3f3; */
 }
 
-.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item:last-child,
-.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item:first-child,
-.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item:nth-last-child(2) {
-    background-color: white;
-}
 
 p.accordion-display-name {
     margin: auto;
