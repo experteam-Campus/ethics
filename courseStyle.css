@@ -550,6 +550,22 @@ p.accordion-display-name:hover {
 }
 
 
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    background: #00B4D8;
+    width: 0%;
+}
+
+
 /* RIGHT MENU */
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
@@ -567,7 +583,7 @@ body .course-index .accordion .course-navigation .chapter-content-container .cha
     background-color: #ffffff00 !important;
 }
 
-/* RIGHT MENU */
+
 
 span.group-heading.active {
     background-color: #EAF9FC;
@@ -591,20 +607,7 @@ p.accordion-display-name {
     background-color: white !important;
 }
 
-.scrollIndicator {
-    position: fixed !important;
-    top: 0;
-    right: 0;
-    z-index: 100 !important;
-    width: 100%;
-    background-color: #f0f0f0;
-}
 
-.progress-barscrollIndicator {
-    height: 10px;
-    background: #00B4D8;
-    width: 0%;
-}
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
     color: white !important;
@@ -613,7 +616,7 @@ p.accordion-display-name {
     padding-right: 10px;
 }
 
-/* MENUE DESIGN */
+
 .course-index .accordion .course-navigation .chapter-content-container.is-open {
     border-bottom: none;
     border-right: 1px dashed #00B4D8;
@@ -661,7 +664,7 @@ p.accordion-display-name {
     padding: 0 0px 0px 0px;
     overflow: hidden;
     width: 90%;
-    margin-right: -8px !important;
+    margin-right: -40px !important;
 }
 
 
