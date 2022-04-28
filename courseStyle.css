@@ -555,7 +555,7 @@ p.accordion-display-name:hover {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
-    padding: 18px 10px 1px 10px;
+    padding: 3px 7px 6px 45px;
     border-radius: 5px;
     font-family: 'Assistant', sans-serif;
     color: #023E8A;
@@ -572,13 +572,14 @@ span.group-heading.active {
 
 p.accordion-display-name {
     color: #00B4D8;
+    padding-right: 10px;
 }
 
 .btn-link,
 .proctored_exam_status .exam-timer .exam-button-turn-in-exam,
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     font-size: 1em;
-    line-height: 0em;
+   
 }
 
 .course-index .accordion .course-navigation .button-chapter {
@@ -604,18 +605,61 @@ p.accordion-display-name {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
     color: #023E8A !important;
     font-weight: 900;
+    padding-right: 10px;
+}
+
+/* MENUE DESIGN */
+.course-index .accordion .course-navigation .chapter-content-container.is-open {
+    border-bottom: none;
+    border-right: 1px dashed #00B4D8;
+    margin-right: 25px;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
+    display: none;
+    padding: 0 20px 0px 0px;
+    overflow: hidden;
+    width: 90%;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item {
+    margin: 4px 0;
+    background: inherit;
+    /*   background-color: #f3f3f3; */
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item:last-child,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item:first-child,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item:nth-last-child(2) {
+    background-color: white;
+}
+
+p.accordion-display-name {
+    margin: auto;
+    padding-bottom: -1px;
+}
+
+.menu-item:before {
+    content: " ";
+    width: 42px;
+    height: 23px;
+    background-image: url(https://studio.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@thumbnail+block@blueCircle-empty.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 1px 1px;
+    right: -6px;
+    margin-top: 12px;
 }
 
 .menu-item.active:before {
-    content: "\279C";
-    color: #023E8A;
-    font-size: 1.4em;
-    line-height: 0.8em;
-    float: right;
-    position: relative;
-    left: 19px;
-    top: 11px;
-    transform: rotateZ( -180deg);
+    content: " ";
+    background-image: url(https://studio.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@thumbnail+block@blueCircle-full.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -6px;
+    margin-top: 12px;
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
