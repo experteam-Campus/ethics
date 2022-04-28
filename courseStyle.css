@@ -1238,3 +1238,10 @@ span.icon.fa.fa-chevron-prev {
     content: "\f054";
     color: white;
 }
+
+
+/* TOP MENU HIDE */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav{
+    display: none;
+}
