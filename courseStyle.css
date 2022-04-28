@@ -563,7 +563,7 @@ p.accordion-display-name:hover {
 
 
 body .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
-    color: #3c3c3c;
+   
     background-color: #ffffff00 !important;
 }
 
@@ -620,12 +620,7 @@ p.accordion-display-name {
     margin-right: 25px;
 }
 
-.course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
-    display: none;
-    padding: 0 20px 0px 0px;
-    overflow: hidden;
-    width: 90%;
-}
+
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item {
     margin: 4px 0;
@@ -663,10 +658,12 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
-    display: none;
-    padding: 0 30px;
+    padding: 0 0px 0px 0px;
     overflow: hidden;
+    width: 90%;
+    margin-right: -8px !important;
 }
+
 
 
 /*NEXT BUTTON ANIMATION*/
