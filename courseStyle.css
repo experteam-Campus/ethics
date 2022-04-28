@@ -661,10 +661,9 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
-    padding: 0 0px 0px 0px;
+    padding: 0 30px;
     overflow: hidden;
-    width: 90%;
-    margin-right: -40px !important;
+    margin-right: -40px ;
 }
 
 
