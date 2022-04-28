@@ -555,11 +555,10 @@ p.accordion-display-name:hover {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
-    padding: 3px 7px 6px 45px;
+    padding: 12px 20px 6px 20px;
     border-radius: 5px;
     font-family: 'Assistant', sans-serif;
-    color: #023E8A;
-    background-color: white !important;
+    background-color: transparent !important;
 }
 
 
@@ -603,8 +602,9 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
-    color: #023E8A !important;
+    color: white !important;
     font-weight: 900;
+    background-color: #00B4D8;
     padding-right: 10px;
 }
 
@@ -636,7 +636,7 @@ p.accordion-display-name {
 
 p.accordion-display-name {
     margin: auto;
-    padding-bottom: -1px;
+    padding-bottom: -1px; 
 }
 
 .menu-item:before {
