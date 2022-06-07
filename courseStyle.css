@@ -1053,13 +1053,13 @@ p.accordion-display-name {
     background: #00B4D8 !important;
     color: white !important;
     font-size: 1em;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #FFFFFF !important;
 }
 
 .textDiv td {
     background: #EAF9FC !important;
     font-size: 1em;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #FFFFFF !important;
 }
 
 
