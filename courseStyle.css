@@ -1008,7 +1008,11 @@ p.accordion-display-name {
 
 /* Discussion */
 .discussion-module-header {
-    width: 88%;
+    width: 88% !important;
+}
+
+.discussion-module-title {
+    box-shadow: none;
 }
 
 /* ETHIC RULES */
