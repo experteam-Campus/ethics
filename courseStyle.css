@@ -1006,13 +1006,17 @@ p.accordion-display-name {
     margin: 17px 65px;
 }
 
-/* Discussion */
+/* DISCUSSION */
 .discussion-module-header {
     width: 88% !important;
 }
 
 .discussion-module-title {
     box-shadow: none;
+}
+
+.forum-nav-refine-bar {
+    background-color: #EAF9FC;
 }
 
 /* ETHIC RULES */
