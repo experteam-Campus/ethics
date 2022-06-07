@@ -208,6 +208,20 @@ span.bookmark-text {
     z-index: -1;
 }
 
+/* Quotes */
+.ethicQuote {
+    border: 5px solid #00B4D8;
+    padding: 20px;
+}
+
+.ethicQuote .ethicRulesImgDiv {
+    background-color: transparent;
+}
+
+
+
+
+
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
 
