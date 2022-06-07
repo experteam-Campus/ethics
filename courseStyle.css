@@ -484,16 +484,17 @@ solution div {
     margin-top: 4%;
 }
 
-solution div h2 {
+solution div h3 {
     background-color: #00B4D8;
     color: white;
     margin: -50px -66px !important;
     display: inline-block;
-    padding: 3px 11px 2px 11px;
-    height: 45px;
+    padding: 5px 11px 2px 11px;
+    height: 42px;
     font-size: 1.8em !important;
     position: absolute;
     border: 6px solid white;
+    font-weight: bold;
 }
 
 solution div p {
