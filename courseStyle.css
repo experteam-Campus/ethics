@@ -1006,6 +1006,10 @@ p.accordion-display-name {
     margin: 17px 65px;
 }
 
+/* Discussion */
+.discussion-module-header {
+    width: 88%;
+}
 
 /* ETHIC RULES */
 
