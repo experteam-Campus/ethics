@@ -424,6 +424,10 @@ p.accordion-display-name:hover {
     color: #023E8A;
 }
 
+/* drag and drop */
+.xblock--drag-and-drop .keyboard-help-button, .xblock--drag-and-drop .problem-progress {
+    margin-right: 1.2%;
+}
 
 /* problem lables design */
 
