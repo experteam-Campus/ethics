@@ -1039,6 +1039,12 @@ p.accordion-display-name {
 
 .discussion-module-title {
     box-shadow: none;
+    border: none;
+    line-height: 2;
+}
+
+.discussion-module-title::before {
+    border: none;
 }
 
 .forum-nav-refine-bar {
