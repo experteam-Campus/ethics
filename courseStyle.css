@@ -30,6 +30,18 @@ span,
     font-family: 'Assistant', sans-serif;
 }
 
+/*  UNORDERED LIST */
+.textDiv ul li::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #00b4d8;
+    right: -27px;
+    bottom: 2px;
+}
+
+
 /* LINE BETWEEN COMPONENTS - KOA UPDATE */
 .course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
     border-bottom: none;
