@@ -41,6 +41,11 @@ span,
     bottom: 2px;
 }
 
+/*  UNORDERED LIST */
+.textDiv ul li {
+    position: relative;
+}
+
 
 /* LINE BETWEEN COMPONENTS - KOA UPDATE */
 .course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
