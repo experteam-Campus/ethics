@@ -227,7 +227,7 @@ div.panel3.show {
 }
 
 .accplus {
-    color: #00B4D8;
+    color: #023E8A;
     float: left;
     font-size: 17pt !important;
     margin-left: 5%;
@@ -235,6 +235,10 @@ div.panel3.show {
     top: -5px;
     height: 10px;
     line-height: 2.8em !important;
+}
+
+.accplus:hover {
+    color: white;
 }
 
 @media print {
