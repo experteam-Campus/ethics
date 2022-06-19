@@ -446,6 +446,10 @@ body.view-in-course .static_tab_wrapper {
     margin-right: 20px;
 }
 
+.problems-wrapper .problem-progress {
+    display: none;
+}
+
 .xmodule_display.xmodule_CapaModule div.problem {
     padding-right: 30px;
     padding-left: 30px;
