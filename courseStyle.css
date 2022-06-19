@@ -447,7 +447,7 @@ body.view-in-course .static_tab_wrapper {
 }
 
 .problems-wrapper .problem-progress {
-    display: none;
+    display: none !important;
 }
 
 .xmodule_display.xmodule_CapaModule div.problem {
