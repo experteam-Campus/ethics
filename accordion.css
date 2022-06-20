@@ -81,7 +81,7 @@ table tr:hover {
     font-weight: bold;
     cursor: pointer;
     padding: 0px 18px 0px 0px;
-    width: 100%;
+    width: 55vw;
     border: none;
     text-align: right;
     outline: none;
@@ -131,11 +131,11 @@ div.panel1 {
 }
 
 div.panel2 {
-    padding: 0 18px;
+    padding: 0px 18px 0px 0px;
+    width: 55vw;
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    width: 100%;
     transition: 0.6s ease-in-out;
     opacity: 0;
 }
