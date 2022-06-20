@@ -459,6 +459,10 @@ p.accordion-display-name:hover {
     color: #023E8A;
 }
 
+.notification-show-answer .notification-message {
+    display: none;
+}
+
 /* drag and drop */
 .xblock--drag-and-drop .keyboard-help-button, .xblock--drag-and-drop .problem-progress {
     display: none;
