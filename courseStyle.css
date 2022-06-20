@@ -459,8 +459,8 @@ p.accordion-display-name:hover {
     color: #023E8A;
 }
 
-.notification-show-answer .notification-message {
-    display: none;
+.notification-show-answer {
+    display: none !important;
 }
 
 /* drag and drop */
