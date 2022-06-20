@@ -460,10 +460,14 @@ p.accordion-display-name:hover {
 }
 
 /* drag and drop */
-.xblock--drag-and-drop .keyboard-help-button, .xblock--drag-and-drop .problem-progress, .xblock--drag-and-drop .problem p {
-    margin-right: 1.2%;
+.xblock--drag-and-drop .keyboard-help-button, .xblock--drag-and-drop .problem-progress {
     display: none;
 }
+
+.xblock--drag-and-drop .problem p {
+    margin-right: 1.2%;
+}
+
 
 /* problem lables design */
 
