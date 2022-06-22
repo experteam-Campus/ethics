@@ -1071,6 +1071,16 @@ p.accordion-display-name {
     box-shadow: none;
     border: none;
     line-height: 2;
+    left: 20px !important;
+}
+
+.inline-discussion-topic-title {
+    display: none;
+}
+
+.inline-discussion-topic {
+    font-size: 22px !important;
+    font-weight: bold;
 }
 
 .discussion-module-title::before {
