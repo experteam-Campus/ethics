@@ -1365,3 +1365,12 @@ span.icon.fa.fa-chevron-prev {
 .xmodule_display.xmodule_SequenceModule .sequence-nav{
     display: none;
 }
+
+
+/* UPDATES */
+.update-message .textHeadline:before {
+    right: 35px !important;
+}
+
+
+
